@@ -1,4 +1,4 @@
-# Alpine Starter
+# Tar
 
 Starter template for [Alpine](https://alpine.nuxt.space).
 
