@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: 'Tar Microsystem',
     description: 'The minimalist blog theme',
     image: {
-      src: '/logo/Tar Microsystem-logos.jpeg',
+      src: '/logo/favicon.webp',
       alt: 'An image showcasing my project.',
       width: 400,
       height: 300
@@ -18,21 +18,12 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: true, // possible value are : true | false
-        repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
+        enabled: false, // possible value are : true | false
+        repository: 'https://www.github.com/TarMicro' // our github repository
       },
-      navigation: true, // possible value are : true | false
+      navigation: false, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
-      message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
-    },
-    socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
-      linkedin: {
-        icon: 'uil:linkedin',
-        label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
-      }
+      message: '' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     form: {
       successMessage: 'Message sent. Thank you!'
